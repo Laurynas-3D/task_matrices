@@ -2,11 +2,11 @@ import java.util.Arrays;
 
 public class matrix_better extends matrix_simple{
 
-    public matrix_better(int matrix_first_value, int matrix_second_value){
+    public matrix_better(int matrix_first_value, int matrix_second_value,int min_range, int max_range){
 
-        super(matrix_first_value, matrix_second_value);
+        super(matrix_first_value, matrix_second_value,min_range,max_range);
 
-        matrix_1(matrix_first_value,matrix_second_value);
+        matrix_1(matrix_first_value,matrix_second_value,min_range,max_range);
         matrix_2(matrix_first_value,matrix_second_value);
         math_with_matrices(grid3_matrix1,grid4_matrix2);
 
@@ -18,14 +18,19 @@ public class matrix_better extends matrix_simple{
 
 
 
-    private void matrix_1(int num1, int num2){
+    private void matrix_1(int num1, int num2,int num3, int num4){
+
+        // num1 defines matrix array size
+        // num2 defines matrix array size
+        // num3 defines generated minimum range of matrix value
+        // num4 defines generated maximum range of matrix value
 
         int[][]numberGrid = new int[num1][num2];
 
         System.out.println("\n---- MATRIX 1 ----" );
         for(int i = 0; i < numberGrid.length; i++) {
             for (int j = 0; j < numberGrid.length; j++) {
-                numberGrid[i][j] = single_num_generator(2, 8);
+                numberGrid[i][j] = single_num_generator(num3, num4);
                 System.out.print(" " + numberGrid[i][j] + " ");
             }
             System.out.println();
@@ -35,11 +40,15 @@ public class matrix_better extends matrix_simple{
 
     private void matrix_2(int num1, int num2){
 
+        // num1 defines matrix array size
+        // num2 defines matrix array size
+
         int[][]numberGrid = new int[num1][num2];
 
         System.out.println("\n---- MATRIX 2 ----" );
         for(int i = 0; i < numberGrid.length; i++) {
             for (int j = 0; j < numberGrid.length; j++) {
+                // here you can change matrix 2 multiplication values
                 numberGrid[i][j] = single_num_generator(2, 2);
                 System.out.print(" " + numberGrid[i][j] + " ");
             }

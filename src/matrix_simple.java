@@ -1,6 +1,11 @@
 
 public class matrix_simple {
 
+    int matrix_first_value;
+    int matrix_second_value;
+    int min_range;
+    int max_range;
+
     int[][] grid1_test;
     int[] grid2_array;
     int[][] grid3_matrix1;
@@ -9,31 +14,23 @@ public class matrix_simple {
 //    int[][] grid6;
     int[][] grid7_math_result;
 
-    int matrix_first_value;
-    int matrix_second_value;
-
-    public matrix_simple(int matrix_first_value, int matrix_second_value) {
+    public matrix_simple(int matrix_first_value, int matrix_second_value, int min_range, int max_range) {
 
         simple_matrix();
         matrix_printer_elements(1,1);
         array_test(5);
         print_matrix_in_nested_loop(grid1_test,"GRID 1");
-
         separator();
-
     }
 
     private void simple_matrix() {
-
         int[][] numberGrid;
-
         numberGrid = new int[][]{
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9},
                 {0, 11, 12}
         };
-
         this.grid1_test = numberGrid;
     }
 
@@ -42,9 +39,7 @@ public class matrix_simple {
     }
 
     private void array_test(int num1){
-
         int[]numberGrid = new int[num1];
-
         System.out.print("array test with generator - ");
         System.out.print("[");
         for(int i = 0; i < numberGrid.length ; i++){
@@ -61,7 +56,6 @@ public class matrix_simple {
     }
 
     protected int[][] print_matrix_in_nested_loop(int[][] grid, String print_phrase){
-
         int[][] numberGrid = grid;
         System.out.println("\n---- MATRIX RESULT = " + print_phrase + " !!! ----");
         for (int i = 0; i < numberGrid.length; i++) {
@@ -70,7 +64,6 @@ public class matrix_simple {
             }
             System.out.println();
         }
-
         return numberGrid;
     }
 
