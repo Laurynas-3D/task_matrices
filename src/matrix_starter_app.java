@@ -12,12 +12,25 @@ public class matrix_starter_app {
      * 5) Prepare a main entry point which reads an unsigned integer number as input from console and executes
      * sequential and parallel versions of the algorithm and prints execution time to console of both of them.
     **/
+    /*
+    Multiply two matrices, same size
+
+    **Implemented Features**
+        - Matrix is 2D Array
+        - You can control matrix size with parameters
+        - Matrix values are auto generated numbers within given range of your choice
+        - You can change matrix values with parameters
+
+    **Details of Project**
+        - matrix_simple java class is for testing purposes
+        - matrix_better java class where all magic happens
+    */
 
     public static void main(String[] args){
-        matrix_simple numbers_grid_1 = new matrix_simple();
 
-        matrix_better numbers_grid2 = new matrix_better();
+       // matrix_simple numbers_grid_1 = new matrix_simple();
 
+        matrix_better numbers_grid2 = new matrix_better(10,10);
 
     }
 }

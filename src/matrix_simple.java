@@ -5,11 +5,14 @@ public class matrix_simple {
     int[] grid2_array;
     int[][] grid3_matrix1;
     int[][] grid4_matrix2;
-    int[][] grid5;
-    int[][] grid6;
+//    int[][] grid5;
+//    int[][] grid6;
     int[][] grid7_math_result;
 
-    public matrix_simple() {
+    int matrix_first_value;
+    int matrix_second_value;
+
+    public matrix_simple(int matrix_first_value, int matrix_second_value) {
 
         simple_matrix();
         matrix_printer_elements(1,1);
