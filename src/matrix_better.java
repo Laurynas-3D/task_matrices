@@ -9,8 +9,6 @@ public class matrix_better extends matrix_simple{
         matrix_1(matrix_first_value,matrix_second_value,min_range,max_range);
         matrix_2(matrix_first_value,matrix_second_value);
         math_with_matrices(grid3_matrix1,grid4_matrix2);
-
-//        print_matrix_in_nested_loop(grid5,"GRID 5");
         print_matrix_in_nested_loop(grid7_math_result,"GRID 7 - VOILA");
 //        print_2d_array_utility();
 //        print_returned_result();
@@ -48,6 +46,7 @@ public class matrix_better extends matrix_simple{
         System.out.println("\n---- MATRIX 2 ----" );
         for(int i = 0; i < numberGrid.length; i++) {
             for (int j = 0; j < numberGrid.length; j++) {
+                // TODO: implement parameter features here.
                 // here you can change matrix 2 multiplication values
                 numberGrid[i][j] = single_num_generator(2, 2);
                 System.out.print(" " + numberGrid[i][j] + " ");
