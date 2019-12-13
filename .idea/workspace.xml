@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1e318f-8b88-482c-8548-b4647d4706e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_better.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_matrix/matrix_better.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_method_tester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_simple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_matrix/matrix_simple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_better.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix_better.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_method_tester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_starter_app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix_starter_app.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +29,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lessons/00 Projects my Practice/practice-basics" />
   </component>
   <component name="RunManager">
     <configuration name="matrix_starter_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,7 +72,9 @@
       <updated>1576049336943</updated>
       <workItem from="1576049340839" duration="18085000" />
       <workItem from="1576141659528" duration="16388000" />
-      <workItem from="1576225142949" duration="3102000" />
+      <workItem from="1576225142949" duration="7654000" />
+      <workItem from="1576240249267" duration="1079000" />
+      <workItem from="1576245869786" duration="1603000" />
     </task>
     <servers />
   </component>
@@ -92,22 +90,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576057976738" />
-    <state width="914" height="660" key="GridCell.Tab.0.bottom" timestamp="1576227984617">
+    <state x="1220" y="274" key="FileChooserDialogImpl" timestamp="1576246173856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="660" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576227984617" />
-    <state width="914" height="660" key="GridCell.Tab.0.center" timestamp="1576227984617">
+    <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576246173856" />
+    <state width="914" height="660" key="GridCell.Tab.0.bottom" timestamp="1576239107355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="660" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576227984617" />
-    <state width="914" height="660" key="GridCell.Tab.0.left" timestamp="1576227984617">
+    <state width="914" height="660" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576239107355" />
+    <state width="914" height="660" key="GridCell.Tab.0.center" timestamp="1576239107355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="660" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576227984617" />
-    <state width="914" height="660" key="GridCell.Tab.0.right" timestamp="1576227984617">
+    <state width="914" height="660" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576239107355" />
+    <state width="914" height="660" key="GridCell.Tab.0.left" timestamp="1576239107355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="660" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576227984617" />
+    <state width="914" height="660" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576239107355" />
+    <state width="914" height="660" key="GridCell.Tab.0.right" timestamp="1576239107355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="660" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576239107355" />
     <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1576177148571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,10 +126,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576177148571" />
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576225161904">
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576245908074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576225161904" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576245908074" />
     <state x="1182" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1576227539952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
