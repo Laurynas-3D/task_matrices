@@ -16,3 +16,8 @@
 - matrix_better java class where all magic happens
 
 
+ Updates
+-
+- Second matrix values can be entered via parameters in main 
+
+

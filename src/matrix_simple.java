@@ -6,6 +6,11 @@ public class matrix_simple {
     int min_range;
     int max_range;
 
+    int matrix1_min_range;
+    int matrix1_max_range;
+    int matrix2_min_range;
+    int matrix2_max_range;
+
     int[][] grid1_test;
     int[] grid2_array;
     int[][] grid3_matrix1;
@@ -14,7 +19,7 @@ public class matrix_simple {
 //    int[][] grid6;
     int[][] grid7_math_result;
 
-    public matrix_simple(int matrix_first_value, int matrix_second_value, int min_range, int max_range) {
+    public matrix_simple(int matrix_first_value, int matrix_second_value, int matrix1_min_range, int matrix1_max_range, int matrix2_min_range, int matrix2_max_range) {
 
         simple_matrix();
         matrix_printer_elements(1,1);

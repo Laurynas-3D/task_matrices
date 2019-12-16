@@ -34,7 +34,9 @@ public class matrix_starter_app {
         //second parameter - matrix 1 and matrix 2 size in rows
         //third parameter - minimum number range of matrix 1 value
         //fourth parameter - maximum number range of matrix 1 value
-        matrix_better numbers_grid2 = new matrix_better(10,10,2,9);
+        //fifth parameter - minimum number range of matrix 2 value
+        // sixth parameter - maximum number range of matrix 2 value
+        matrix_better numbers_grid2 = new matrix_better(10,10,2,9,4,4);
 
     }
 }
