@@ -16,8 +16,17 @@
 - matrix_better java class where all magic happens
 
 
- Updates
+TODO: for 2020.01
 -
-- Second matrix values can be entered via parameters in main 
+- Remove matrix_simple class
+- Rewrite matrix_better class
+- Apply rules for variable and class naming conventions
+- Correct logical mistake in multiplication process
+- Implement enhanced for loop
+- Implement command line arguments at starting point in main
+- Implement java.util.Arrays class
+- Apply clean code rules
 
-
+ Updates: 2019.12
+-
+- Second matrix values can be entered via parameters in main

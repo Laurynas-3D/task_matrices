@@ -2,26 +2,30 @@ import java.util.Arrays;
 
 public class matrix_better extends matrix_simple{
 
-    public matrix_better(int matrix_first_value, int matrix_second_value,int matrix1_min_range, int matrix1_max_range, int matrix2_min_range, int matrix2_max_range){
+    public matrix_better(int matrixA_first_value,
+                         int matrixA_second_value,
+                         int matrixA_min_range,
+                         int matrixA_max_range,
+                         int matrixB_min_range,
+                         int matrixB_max_range){
 
-        super(matrix_first_value, matrix_second_value,matrix1_min_range,matrix1_max_range,matrix2_min_range,matrix2_max_range);
+        super(matrixA_first_value, matrixA_second_value,matrixA_min_range,matrixA_max_range,matrixB_min_range,matrixB_max_range);
 
-        matrix_1(matrix_first_value,matrix_second_value,matrix1_min_range,matrix1_max_range);
-        matrix_2(matrix_first_value,matrix_second_value,matrix2_min_range,matrix2_max_range);
+        matrixA(matrixA_first_value,matrixA_second_value,matrixA_min_range,matrixA_max_range);
+        matrixB(matrixA_first_value,matrixA_first_value,matrixB_min_range,matrixB_max_range);
         math_with_matrices(grid3_matrix1,grid4_matrix2);
         print_matrix_in_nested_loop(grid7_math_result,"GRID 7 - VOILA");
 //        print_2d_array_utility();
 //        print_returned_result();
     }
 
-
-
-    private void matrix_1(int num1, int num2,int num3, int num4){
-
-        // num1 defines matrix array size
-        // num2 defines matrix array size
-        // num3 defines generated minimum range of matrix value
-        // num4 defines generated maximum range of matrix value
+    /**
+     @param num1 defines matrixA array size
+     @param num2 defines matrixA array size
+     @param num3 defines generated minimum range of matrixA value
+     @param num4 defines generated maximum range of matrixA value
+     */
+    private void matrixA(int num1, int num2,int num3, int num4){
 
         int[][]numberGrid = new int[num1][num2];
 
@@ -36,10 +40,13 @@ public class matrix_better extends matrix_simple{
         this.grid3_matrix1 = numberGrid;
     }
 
-    private void matrix_2(int num1, int num2, int matrix2_min_range, int matrix2_max_range){
-
-        // num1 defines matrix array size
-        // num2 defines matrix array size
+    /**
+     @param num1 defines matrixB array size
+     @param num2 defines matrixB array size
+     @param matrix2_min_range defines generated minimum range of matrixB value
+     @param matrix2_max_range defines generated maximum range of matrixB value
+     */
+    private void matrixB(int num1, int num2, int matrix2_min_range, int matrix2_max_range){
 
         int[][]numberGrid = new int[num1][num2];
 

@@ -6,10 +6,10 @@ public class matrix_simple {
     int min_range;
     int max_range;
 
-    int matrix1_min_range;
-    int matrix1_max_range;
-    int matrix2_min_range;
-    int matrix2_max_range;
+    int matrixA_min_range;
+    int matrixA_max_range;
+    int matrixB_min_range;
+    int matrixB_max_range;
 
     int[][] grid1_test;
     int[] grid2_array;
