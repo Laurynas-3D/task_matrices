@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1e318f-8b88-482c-8548-b4647d4706e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_better.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_matrix/matrix_better.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_simple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_matrix/matrix_simple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_matrix/matrix_starter_app.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_matrix/matrix_starter_app.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_better.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix_better.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix_simple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix_starter_app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix_starter_app.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c1e318f-8b88-482c-8548-b4647d4706e5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lessons/00 Projects practice/practice-basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="matrix_starter_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,6 +91,7 @@
       <workItem from="1577723616415" duration="3894000" />
       <workItem from="1577781811627" duration="716000" />
       <workItem from="1577880301703" duration="11000" />
+      <workItem from="1579025938693" duration="422000" />
     </task>
     <servers />
   </component>
