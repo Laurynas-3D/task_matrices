@@ -1,8 +1,10 @@
+package Version201912;
+
 public class matrix_starter_app {
 
     public static void main(String[] args){
 
-       // matrix_simple numbers_grid_1 = new matrix_simple();
+       // Version201912.matrix_simple numbers_grid_1 = new Version201912.matrix_simple();
 
         //first parameter - matrix 1 and matrix 2 size in columns
         //second parameter - matrix 1 and matrix 2 size in rows
@@ -38,6 +40,6 @@ public class matrix_starter_app {
         - You can change matrix values with parameters
 
     **Details of Project**
-        - matrix_simple java class is for testing purposes
-        - matrix_better java class where all magic happens
+        - Version201912.matrix_simple java class is for testing purposes
+        - Version201912.matrix_better java class where all magic happens
     */

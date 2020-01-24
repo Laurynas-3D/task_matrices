@@ -45,9 +45,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MatricesApp">
+    <configuration name="MatricesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Version202001.MatricesApp" />
+      <module name="task_matrix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="matrix_starter_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix_starter_app" />
+      <option name="MAIN_CLASS_NAME" value="Version201912.matrix_starter_app" />
       <module name="task_matrix" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatricesApp" />
         <item itemvalue="Application.matrix_starter_app" />
       </list>
     </recent_temporary>
@@ -99,10 +107,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="948" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1576851461767">
+    <state x="948" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1579615722288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="948" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576851461767" />
+    <state x="948" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579615722288" />
     <state x="590" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577781856814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,22 +127,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577781922263" />
-    <state width="1877" height="665" key="GridCell.Tab.0.bottom" timestamp="1577729126064">
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom" timestamp="1579861081751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577729126064" />
-    <state width="1877" height="665" key="GridCell.Tab.0.center" timestamp="1577729126063">
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579861081751" />
+    <state width="1877" height="561" key="GridCell.Tab.0.center" timestamp="1579861081751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577729126063" />
-    <state width="1877" height="665" key="GridCell.Tab.0.left" timestamp="1577729126063">
+    <state width="1877" height="561" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579861081751" />
+    <state width="1877" height="561" key="GridCell.Tab.0.left" timestamp="1579861081751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577729126063" />
-    <state width="1877" height="665" key="GridCell.Tab.0.right" timestamp="1577729126063">
+    <state width="1877" height="561" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579861081751" />
+    <state width="1877" height="561" key="GridCell.Tab.0.right" timestamp="1579861081751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577729126063" />
+    <state width="1877" height="561" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579861081751" />
     <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1576177148571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1576177148571" />
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577880301997">
+    <state x="596" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1579856193883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1577880301997" />
+    <state x="596" y="240" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.1160@0.0.1920.1040" timestamp="1579856193883" />
     <state x="1182" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1576227539952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
