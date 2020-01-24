@@ -8,14 +8,15 @@ public class MatricesMultiply {
 
     private int[][] matrixA;
     private int[][] matrixB;
+    private int[][] matrixTest;
 
     SecureRandom sRandom = new SecureRandom();
     Random random = new Random();
 
     public MatricesMultiply() {
 
-        populateMatrixA(10,10,11,99);
-        populateMatrixB(10,10,11,99);
+        populateMatrixA(8,8,9);
+        populateMatrixB(8,4,99);
         outputArray(matrixA, "Printing Array A");
         outputArray(matrixB, "\nPrinting Array B");
     }
@@ -52,25 +53,29 @@ public class MatricesMultiply {
         }
     }
 
-    public void populateMatrixA(int rows, int columns, int minValue, int maxValue){
+    public void populateMatrixA(int rows, int columns, int maxValue){
 
-        int[][] matrix = new int[rows][columns];
-        for(int row = 0; row < matrix.length; row++){
-            for (int column = 0; column < matrix[row].length; column++)
-                matrix[row] = random.ints(rows, minValue,maxValue).toArray();
+        int[][] matrix = new int[columns][rows];
+        for(int i=0; i < matrix.length; i++){
+            for(int j=0; j < matrix[i].length; j++){
+                matrix[i][j] = sRandom.nextInt(maxValue);
+            }
         }
         this.matrixA = matrix;
     }
 
-    public void populateMatrixB(int rows, int columns, int minValue, int maxValue){
+    public void populateMatrixB(int rows, int columns, int maxValue){
 
-        int[][] matrix = new int[rows][columns];
-        for(int row = 0; row < matrix.length; row++){
-            for (int column = 0; column < matrix[row].length; column++)
-                matrix[row] = sRandom.ints(rows, minValue,maxValue).toArray();
+        int[][] arr2D  = new int[columns][rows];
+        for(int i=0; i < arr2D.length; i++){
+            for(int j=0; j < arr2D[i].length; j++){
+                arr2D[i][j] = random.nextInt(maxValue);
+            }
         }
-        this.matrixB = matrix;
+        this.matrixB = arr2D;
     }
+
+
 }
 
 
