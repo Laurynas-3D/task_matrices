@@ -5,10 +5,12 @@
 Project contains two folders
 
 :file_folder: Version201912
+
     - Very first task implementation / broken and obsolete 
     - Reason: code is too messy, logical mistake, horrible variable names, it is just too clunky
     
 :file_folder: Version202001
+
     - Second approach of the same task
     - Goals: correct first version mistakes, make a much better version
 
