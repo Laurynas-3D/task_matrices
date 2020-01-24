@@ -1,8 +1,9 @@
-# task_matrices
+## task_matrices
 
-##### Multiply two matrices, same size
+### Multiply two matrices, same size
 
 Project contains two folders
+
 :file_folder: Version201912
     - Very first task implementation / broken and obsolete 
     - Reason: code is too messy, logical mistake, horrible variable names, it is just too clunky
