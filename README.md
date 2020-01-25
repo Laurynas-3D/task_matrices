@@ -20,7 +20,7 @@ TODO: for 2020.01
 - [ ] Rewrite Version201912.matrix_better class
 - [x] Apply rules for variables and class naming conventions
 - [ ] Correct logical mistake in multiplication process
-- [ ] Implement enhanced for loop
+- [x] Implement enhanced for loop
 - [ ] Implement command line arguments at starting point in main
 - [x] Implement java.util.Arrays class
 - [x] Implement java.util.Random class

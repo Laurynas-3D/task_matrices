@@ -8,7 +8,7 @@ public class MatricesMultiply {
 
     private int[][] matrixA;
     private int[][] matrixB;
-    private int[][] matrixTest;
+    private int[][] MatrixEnhanced;
 
     SecureRandom sRandom = new SecureRandom();
     Random random = new Random();
@@ -16,25 +16,12 @@ public class MatricesMultiply {
     public MatricesMultiply() {
 
         populateMatrixA(8,8,9);
-        populateMatrixB(8,4,99);
+        populateMatrixB(8,8,9);
+        populateMatrixEnhanced(8,4,99);
         outputArray(matrixA, "Printing Array A");
         outputArray(matrixB, "\nPrinting Array B");
-    }
 
-    public int[][] getMatrixA() {
-        return matrixA;
-    }
-
-    public void setMatrixA(int[][] matrixA) {
-        this.matrixA = matrixA;
-    }
-
-    public int[][] getMatrixB() {
-        return matrixB;
-    }
-
-    public void setMatrixB(int[][] matrixB) {
-        this.matrixB = matrixB;
+        outputArray(MatrixEnhanced, "\nPrinting MatrixEnhanced over outputArray() ");
     }
 
     /**
@@ -44,12 +31,10 @@ public class MatricesMultiply {
     public static void outputArray(int[][] array, String description){
 
         System.out.println(description);
-        // loop through array's rows
-        for(int row = 0; row < array.length; row++){
-            //loop through columns of current row
-            for (int column = 0; column < array[row].length; column++)
-                System.out.printf("%d   ", array[row][column]);
-            System.out.println();
+        for(int[] row: array) {
+            for(int value: row)
+                System.out.printf("%d ", value);
+            System.out.println("");
         }
     }
 
@@ -74,6 +59,21 @@ public class MatricesMultiply {
         }
         this.matrixB = arr2D;
     }
+
+    // TODO: fix this piece
+    public void populateMatrixEnhanced(int rows, int columns, int maxValue) {
+
+        int[][] grid = new int[3][3];
+        for (int[] row : grid) {
+            for (int value : row) {
+                value = random.nextInt(45);
+                System.out.printf("&&&&&& %d ", value);
+                System.out.println();
+            }
+        }
+        this.MatrixEnhanced = grid;
+    }
+
 
 
 }
