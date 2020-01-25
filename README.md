@@ -32,7 +32,7 @@ TODO: for 2020.01
 - Implemented Random and Secure Random classes
 - Removed unnecessary variables
 - Removed unnecessary redundant class
-- 
+- Implement enhanced for loop
 
 
 ---
