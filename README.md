@@ -19,7 +19,7 @@ TODO: for 2020.01
 - [x] Remove Version201912.matrix_simple class
 - [ ] Rewrite Version201912.matrix_better class
 - [x] Apply rules for variables and class naming conventions
-- [ ] Correct logical mistake in multiplication process
+- [x] Correct logical mistake in multiplication process
 - [x] Implement enhanced for loop
 - [ ] Implement command line arguments at starting point in main
 - [x] Implement java.util.Arrays class
@@ -33,6 +33,7 @@ TODO: for 2020.01
 - Removed unnecessary variables
 - Removed unnecessary redundant class
 - Implement enhanced for loop
+- Corrected logical multiplication mistake
 
 
 ---

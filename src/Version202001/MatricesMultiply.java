@@ -8,20 +8,26 @@ public class MatricesMultiply {
 
     private int[][] matrixA;
     private int[][] matrixB;
-    private int[][] MatrixEnhanced;
+    private int[][] matrixEnhanced;
+    private int[][] matrixResult;
 
     SecureRandom sRandom = new SecureRandom();
     Random random = new Random();
 
     public MatricesMultiply() {
 
-        populateMatrixA(8,8,9);
-        populateMatrixB(8,8,9);
-        populateMatrixEnhanced(8,4,99);
+        populateMatrixA(6,6,2);
+        populateMatrixB(6,6,2);
         outputArray(matrixA, "Printing Array A");
         outputArray(matrixB, "\nPrinting Array B");
+        multiplyMatrices(matrixA, matrixB);
+        outputArray(matrixResult, "\nPrinting result: ");
 
-        outputArray(MatrixEnhanced, "\nPrinting MatrixEnhanced over outputArray() ");
+//        System.out.println("\n");
+//        populateMatrixEnhanced(8,4,99);
+//        outputArray(matrixEnhanced, "matrixEnhanced ========");
+
+      //  outputArray(MatrixEnhanced, "\nPrinting MatrixEnhanced over outputArray() ");
     }
 
     /**
@@ -61,17 +67,38 @@ public class MatricesMultiply {
     }
 
     // TODO: fix this piece
-    public void populateMatrixEnhanced(int rows, int columns, int maxValue) {
+    int[][] populateMatrixEnhanced(int rows, int columns, int maxValue) {
 
         int[][] grid = new int[3][3];
         for (int[] row : grid) {
             for (int value : row) {
                 value = random.nextInt(45);
-                System.out.printf("&&&&&& %d ", value);
+                System.out.printf("&&& %d ", value);
                 System.out.println();
             }
         }
-        this.MatrixEnhanced = grid;
+        return this.matrixEnhanced = grid;
+    }
+
+    int[][] multiplyMatrices(int[][] firstMatrix, int[][] secondMatrix) {
+        int[][] result = new int[firstMatrix.length][secondMatrix[0].length];
+
+        for (int row = 0; row < result.length; row++) {
+            for (int col = 0; col < result[row].length; col++) {
+                result[row][col] = multiplyMatricesCell(firstMatrix, secondMatrix, row, col);
+            }
+        }
+
+        return this.matrixResult = result;
+    }
+
+    int multiplyMatricesCell(int[][] firstMatrix, int[][] secondMatrix, int row, int col) {
+
+        int cell = 0;
+        for (int i = 0; i < secondMatrix.length; i++) {
+            cell += firstMatrix[row][i] * secondMatrix[i][col];
+        }
+        return cell;
     }
 
 
