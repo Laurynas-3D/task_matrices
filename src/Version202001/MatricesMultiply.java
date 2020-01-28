@@ -31,8 +31,13 @@ public class MatricesMultiply {
     }
 
     /**
-     * @param array to print
-     * @param description string for description
+     * prints 2d array to command line.
+     *
+     * @param  array
+     *         pass an 2d array to print
+     *
+     * @param description
+     *        string for description
      */
     public static void outputArray(int[][] array, String description){
 
@@ -40,10 +45,23 @@ public class MatricesMultiply {
         for(int[] row: array) {
             for(int value: row)
                 System.out.printf("%d ", value);
-            System.out.println("");
+            System.out.println();
         }
     }
 
+    /**
+     * fills MatrixA 2d array with random data.
+     *
+     * @param  rows
+     *         how many rows in 2d array should be
+     *
+     * @param columns
+     *        how many columns in 2d array should be
+     *
+     * @param maxValue
+     *        maximum value of each array element
+     *
+     */
     public void populateMatrixA(int rows, int columns, int maxValue){
 
         int[][] matrix = new int[columns][rows];
@@ -55,6 +73,19 @@ public class MatricesMultiply {
         this.matrixA = matrix;
     }
 
+    /**
+     * fills MatrixB 2d array with random data.
+     *
+     * @param  rows
+     *         how many rows in 2d array should be
+     *
+     * @param columns
+     *        how many columns in 2d array should be
+     *
+     * @param maxValue
+     *        maximum value of each array element
+     *
+     */
     public void populateMatrixB(int rows, int columns, int maxValue){
 
         int[][] arr2D  = new int[columns][rows];
