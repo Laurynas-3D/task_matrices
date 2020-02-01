@@ -14,18 +14,28 @@ Project contains two folders
     - Second approach of the same task
     - Goals: correct first version mistakes, make a much better version
 
+TODO: for 2020.02
+-
+- [ ] Rewrite Version201912.matrix_better class
+- [ ] Implement command line arguments at starting point in main
+- [ ] Apply clean code rules
+- [ ] Write Doc Comments
+
+ Updates: 2020.02
+-
+-
+
 TODO: for 2020.01
 -
 - [x] Remove Version201912.matrix_simple class
-- [ ] Rewrite Version201912.matrix_better class
+
 - [x] Apply rules for variables and class naming conventions
 - [x] Correct logical mistake in multiplication process
 - [x] Implement enhanced for loop
-- [ ] Implement command line arguments at starting point in main
+
 - [x] Implement java.util.Arrays class
 - [x] Implement java.util.Random class
-- [ ] Apply clean code rules
-- [ ] Write Doc Comments
+
 
  Updates: 2020.01
 -
